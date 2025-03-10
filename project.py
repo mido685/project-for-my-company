@@ -241,6 +241,25 @@ if current_balance :
             - ⚙️ Automating stock predictions **optimizes ordering efficiency**, reducing overstock and shortages.
             """)
             st.divider()
+            st.markdown("## 🚀 Revolutionizing Inventory Management with AI! 🤖")  
+            st.write(
+                "Inaccurate order predictions can lead to **wasted inventory, financial losses, and operational inefficiencies**. ❌ "
+                "Restaurants often struggle with stock shortages during peak hours or excessive waste from overstocking perishable items."
+            )
+
+            st.write(
+                "To tackle this challenge, this **Smart Order Receiving & Inventory Optimization AI** was developed to "
+                "**predict item ordering patterns with precision and efficiency**. 📊✅"
+            )
+
+            st.markdown("### 🔥 Key Benefits:")
+            st.markdown("- 🔹 **Reduces waste** by optimizing inventory levels.")
+            st.markdown("- 🔹 **Prevents stock shortages**, ensuring customer satisfaction.")
+            st.markdown("- 🔹 **Enhances decision-making** with AI-driven insights.")
+
+            st.write('''This is just the beginning! I'm excited about the potential of AI in
+                      **transforming operational efficiency**. If you're interested in **AI-driven
+                      business solutions**, let's connect and discuss! 💡''')
     except:
           st.error("⚠️ Please enter a valid number.")
           current_balance = None  # Reset value if invalid
