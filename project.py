@@ -222,7 +222,7 @@ if current_balance :
             ax.grid(True)
             st.pyplot(fig)
             # Assuming sse, y_test, and y_pred are already defined
-            st.write(f"**Sum of Squared Error (SSE) for the Mean Model:** {sse:.2f} 💡")
+            st.write(f"**Sum of Squared Error (SSE) for the AI model :** {sse:.2f} 💡")
             st.write("""
             The **Sum of Squared Error (SSE)** quantifies the error between the predicted and actual values. 
             A **lower SSE** indicates better model performance as the predictions are closer to the actual values .🎯
